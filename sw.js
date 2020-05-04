@@ -17,7 +17,7 @@
  *
  */
 
-const version = "0.0.3";
+const version = "0.0.4";
 const cacheName = `my-pwa-${version}`;
 self.addEventListener('install', e => {
   e.waitUntil(
